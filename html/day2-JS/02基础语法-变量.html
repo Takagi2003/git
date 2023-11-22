@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        {   //作用域比较大，全局变量
+            //可以重复定义
+            var a=1;
+            alert(a);
+        }
+        {
+            //let : 局部变量；不能重复定义
+            let b = 2;
+            alert(b);
+        }
+        {
+            // const:常量 不能改变
+            const c = 3.14;
+            alert(c);
+        }
+    </script>
+</body>
+</html>

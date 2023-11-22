@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //原始数据类型
+        alert(typeof 3.14); //number
+        alert(typeof "hello"); //string
+        alert(typeof true); //boolean
+        alert(typeof null); //object
+        var nub;
+        alert(typeof nub); //undefined
+
+        // 全等运算符和等于运算符
+        var age = 20;
+        var _age = "20";
+        var s_age = 20;
+        alert(age ==_age);//true
+        alert(age===_age);//false
+        alert(age ==s_age);//true
+
+        //数据类型-其他类型转化为数字
+        alert(parseInt("12")); //12
+        alert(parseInt("12a3")); //12   中间出现的和开头出现的是同的
+        alert(parseInt("a45")); //NaN
+
+        // 其他数据类型转化为布尔类型
+        // 数字除了0和NaN为false其他都为true
+        // 字符串除了空字符串为false其他都为true
+        // Null和undefined均转化为false
+    </script>
+</body>
+</html>

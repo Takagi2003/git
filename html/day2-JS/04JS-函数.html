@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 定义函数-1
+        function add(a,b){  // 为弱语言，所以不需要定义变量的数据类型
+            return a+b;
+        }
+        // 定义函数-2
+        var add_1 = function(a,b){
+            return a+b;
+        }
+        // 两种调用都可以，但是我推荐使用第一种把，熟悉一点
+
+        // 调用函数
+        var c =add(2,3); // 调用的时候可以传进去多个参数也不会报错，但是只会取前2个参数
+        alert(c);
+    </script>
+</body>
+</html>
